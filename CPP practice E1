@@ -1,0 +1,113 @@
+#include <iostream>
+using namespace std;
+ int main(){
+     
+     
+     /*Check is a year is leap year or not.*/
+     
+//     int year;
+//     cout<<"enter the year";
+//     cin>>year;
+    
+//     if(year%4==0){
+//         cout<<"this is leap year"<<endl;
+//     }else{
+//         cout<<"this is not leap year";
+//     }
+
+
+
+/*Check if a number is even or odd.*/
+
+// int num;
+// cin>>num;
+// if(num%2==0){
+//  cout<<"even";   
+// }else{
+//     cout<<"odd";
+// }
+
+
+
+/*Write a program to swap two numbers.*/
+// 1. using 3 variables
+
+// int num1, num2;
+// cin>>num1>>num2;
+// int num3;
+// num3=num1;
+// num1=num2;
+// num2=num3;
+
+// cout<<num1<<" "<<num2;
+
+
+// 2. using 2 varibales
+
+// int num1,num2;
+// cin>>num1>>num2;
+
+// num1=num1+num2;
+// num2=num1-num2;
+// num1=num1-num2;
+// cout<<num1<<" "<<num2;
+
+
+
+
+
+/*Can you find out the sum of digits of a number?*/
+
+// int num;
+// int sum;
+// cin>>num;
+// while(num>0){
+//     sum=sum+(num%10);
+//     num=num/10;
+// }
+//     cout<<"sum of num digit is "<<sum<<endl;
+
+
+
+/*Write a program to find the reverse of a number.*/
+
+// int num;
+// cin>>num;
+
+// int rev =0;
+// while(num){
+//     rev*=10;
+//     rev+=num%10;
+//     num/=10;
+// }
+// cout<<"reverse of the num is "<<rev<<endl;
+
+
+
+
+/*Find the sum of all the natural numbers from 1 to n.*/
+// int n;
+// cin>>n;
+
+// int sum=0;
+// for(int i=1; i<=n; i++){
+//     sum=sum+i;
+//}
+
+// sum=(n*(n+1)/2);
+//  cout<<sum;
+
+
+//compute the power a given number to a given power
+
+int n,p;
+cin>>n>>p;
+int ans=1;
+for(int i=0; i<p; i++){
+    ans*=n;
+}
+cout<<"n raise to the power p is: "<<ans<<endl;
+
+
+
+}
